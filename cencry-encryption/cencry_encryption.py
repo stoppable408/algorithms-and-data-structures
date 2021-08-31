@@ -20,4 +20,5 @@ def get_input(line=stdin):
 
 
 if __name__ == '__main__':
-	input = get_input("2\nbaax")
+	input = get_input("2\nbaax\naaa")
+	print(input)
