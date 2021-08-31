@@ -1,5 +1,11 @@
 from sys import stdin
 
+vowel_string = "aeiouaeiouaeiouaeiouaeiou"
+consonant_string = "bcdfghjklmnpqrstvwxyzbcdfghjklmnpqrstvwxyz"
+
+
+def encrypt(input):
+	return input
 
 
 #Initial part for getting the standard input
@@ -14,4 +20,4 @@ def get_input(line=stdin):
 
 
 if __name__ == '__main__':
-	pass
+	input = get_input("2\nbaax")
